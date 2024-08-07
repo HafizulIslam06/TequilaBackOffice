@@ -1,0 +1,13 @@
+﻿/* Import other CSS files */
+@import url('variables.css');
+@import url('color.css');
+@import url('font.css');
+@import url('layout.css');
+
+/* base.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #131313;
+}

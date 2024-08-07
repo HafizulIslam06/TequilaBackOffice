@@ -1,0 +1,9 @@
+﻿/* Background Colors */
+.bg-teal {
+    background-color: var(--primary-color);
+}
+
+/* Text Colors */
+.text-teal {
+    color: var(--primary-color);
+}

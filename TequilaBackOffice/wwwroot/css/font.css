@@ -1,0 +1,5 @@
+﻿/* Font size and weight classes */
+.font-10-400 {
+    font-size: var(--font-size-10);
+    font-weight: var(--font-weight-400);
+}

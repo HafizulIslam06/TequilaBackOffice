@@ -1,0 +1,11 @@
+﻿:root {
+    /* ===== Colors ===== */
+    --primary-color: #045D5E;
+    /* Background Colors */
+    --bg-f4f6f6: #F4F6F6;
+    /* Text Colors */
+    --text-515151: #515151;
+    /* ===== Font Sizes and Weights ===== */
+    --font-size-10: 10px;
+    --font-weight-400: 400;
+}
