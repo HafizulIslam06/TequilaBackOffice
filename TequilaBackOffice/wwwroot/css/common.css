@@ -1,0 +1,17 @@
+﻿.Menu-Container {
+    background-color: var(--bg-D9D9D96B);
+    border-radius: 20px;
+    margin: 5px;
+    align-items: center;
+}
+.TopMenu-card {
+    border-radius: 20px;
+    Width: 160px;
+    Height: 100px;
+    margin: 5px 5px;
+}
+.Font-Tittle {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px
+}

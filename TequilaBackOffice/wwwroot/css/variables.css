@@ -3,8 +3,13 @@
     --primary-color: #045D5E;
     /* Background Colors */
     --bg-f4f6f6: #F4F6F6;
+    --bg-000000: #000000;
+    --bg-FFFFFF: #FFFFFF;
+    --bg-D9D9D96B: #D9D9D96B;
     /* Text Colors */
     --text-515151: #515151;
+    --text-FAFAFA: #FAFAFA;
+    --text-000000: #000000;
     /* ===== Font Sizes and Weights ===== */
     --font-size-10: 10px;
     --font-weight-400: 400;

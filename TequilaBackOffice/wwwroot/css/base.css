@@ -3,6 +3,7 @@
 @import url('color.css');
 @import url('font.css');
 @import url('layout.css');
+@import url('common.css');
 
 /* base.css */
 html, body {

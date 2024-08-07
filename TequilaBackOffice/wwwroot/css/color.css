@@ -2,8 +2,23 @@
 .bg-teal {
     background-color: var(--primary-color);
 }
-
+.bg-000000 {
+    background-color: var(--bg-000000);
+}
+.bg-FFFFFF {
+    background-color: var(--bg-FFFFFF);
+}
+.bg-D9D9D96B {
+    background-color: var(--bg-D9D9D96B);
+}
 /* Text Colors */
 .text-teal {
     color: var(--primary-color);
+}
+
+.text-fafafa {
+    color: var(--text-FAFAFA);
+}
+.text-000000 {
+    color: var(--text-000000);
 }
