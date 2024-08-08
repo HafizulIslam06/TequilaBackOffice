@@ -11,6 +11,9 @@
 .bg-D9D9D96B {
     background-color: var(--bg-D9D9D96B);
 }
+.bg-D9D9D9 {
+    background-color: var(--bg-D9D9D9);
+}
 /* Text Colors */
 .text-teal {
     color: var(--primary-color);
