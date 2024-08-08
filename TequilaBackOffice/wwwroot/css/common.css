@@ -1,29 +1,33 @@
-﻿/*Top*/
+﻿/* Top Menu Container */
 .Menu-Container {
     background-color: var(--bg-D9D9D96B);
     border-radius: 20px;
     margin: 5px;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Ensures it stays on top of other content */
 }
+
+/* Top Menu Card */
 .TopMenu-card {
     border-radius: 20px;
-    Width: 160px;
-    Height: 100px;
+    width: 160px;
+    height: 100px;
     margin: 5px 5px;
 }
-.Font-Tittle {
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 38.73px
-}
+
+/* Icon Sizes */
 .icon-TopBar {
-    Width: 74px;
-    Height: 82px;
+    width: 74px;
+    height: 82px;
 }
+
 .home-topBar {
-    Width: 91px;
-    Height: 76px;
+    width: 91px;
+    height: 76px;
 }
+
 /* Container for the entire mobile view */
 .mobile-view {
     margin: 5px;
@@ -32,8 +36,8 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF; /* Assuming bg-FFFFFF is white */
-    overflow: hidden; /* Ensure no overflow outside the container */
+    background-color: #FFFFFF;
+    position: fixed;
 }
 
 /* Sticky header */
@@ -41,15 +45,15 @@
     flex-shrink: 0;
     width: 100%;
     position: sticky;
-    top: 0;
-    z-index: 1020;
-    background-color: inherit; /* Match the parent container */
+    top: 140px; /* Adjust this to ensure it's below the top menu */
+    z-index: 1010;
+    background-color: inherit;
     border-radius: 20px;
 }
 
 /* Scrollable body */
 .body-content {
-    overflow-y: auto; /* Enables scrolling for the body content */
+    overflow-y: auto;
     flex-grow: 1;
 }
 
@@ -60,7 +64,7 @@
     position: sticky;
     bottom: 0;
     z-index: 1020;
-    background-color: #D9D9D9; /* Assuming bg-D9D9D9 is this color */
+    background-color: #D9D9D9;
     border-radius: 20px;
 }
 
@@ -81,7 +85,7 @@ hr.dotted {
     align-content: center;
 }
 
-    .arrow img {
-        width: 54px;
-        height: 49px;
-    }
+.arrow img {
+    width: 54px;
+    height: 49px;
+}
