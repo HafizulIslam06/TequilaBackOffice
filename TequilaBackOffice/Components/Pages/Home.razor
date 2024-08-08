@@ -196,11 +196,11 @@
             </div>
 
             <div class="d-flex flex-column">
-                <div class="arrow my-2">
-                    <img src="/assets/arrowUP.svg" alt="home icon" class="home-topBar">
+                <div class="arrow my-2" id="scrollUp">
+                    <img src="/assets/arrowUP.svg" alt="scroll up" class="home-topBar">
                 </div>
-                <div class="arrow">
-                    <img src="/assets/arrowdown.svg" alt="home icon" class="home-topBar">
+                <div class="arrow" id="scrollDown">
+                    <img src="/assets/arrowdown.svg" alt="scroll down" class="home-topBar">
                 </div>
             </div>
         </div>
@@ -658,3 +658,14 @@
     </div>    
 </div>    
 
+<script>
+    document.getElementById('scrollUp').addEventListener('click', function () {
+        const bodyContent = document.querySelector('.body-content');
+        bodyContent.scrollBy(0, -50); // Scroll up by 50px
+    });
+
+    document.getElementById('scrollDown').addEventListener('click', function () {
+        const bodyContent = document.querySelector('.body-content');
+        bodyContent.scrollBy(0, 50); // Scroll down by 50px
+    });
+</script>
