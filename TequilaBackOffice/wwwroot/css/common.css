@@ -24,7 +24,6 @@
     Width: 91px;
     Height: 76px;
 }
-
 /* Container for the entire mobile view */
 .mobile-view {
     margin: 5px;
@@ -34,6 +33,7 @@
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF; /* Assuming bg-FFFFFF is white */
+    overflow: hidden; /* Ensure no overflow outside the container */
 }
 
 /* Sticky header */
@@ -45,6 +45,12 @@
     z-index: 1020;
     background-color: inherit; /* Match the parent container */
     border-radius: 20px;
+}
+
+/* Scrollable body */
+.body-content {
+    overflow-y: auto; /* Enables scrolling for the body content */
+    flex-grow: 1;
 }
 
 /* Sticky footer */
@@ -64,7 +70,8 @@ hr.dotted {
     border-top: 3px dotted white;
     margin: 20px 0;
 }
-/*Button*/
+
+/* Button */
 .arrow {
     width: 110px;
     height: 80px;
@@ -73,6 +80,7 @@ hr.dotted {
     text-align: center;
     align-content: center;
 }
+
     .arrow img {
         width: 54px;
         height: 49px;
