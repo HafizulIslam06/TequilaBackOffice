@@ -1,5 +1,12 @@
 ﻿/* Font size and weight classes */
-.font-10-400 {
-    font-size: var(--font-size-10);
-    font-weight: var(--font-weight-400);
+.font-50-600 {
+    font-family: "Inter", sans-serif;
+    font-size: var(--font-size-50);
+    font-weight: var(--font-weight-600);
+}
+
+.font-32-600 {
+    font-family: "Inter", sans-serif;
+    font-size: var(--font-size-32);
+    font-weight: var(--font-weight-600);
 }

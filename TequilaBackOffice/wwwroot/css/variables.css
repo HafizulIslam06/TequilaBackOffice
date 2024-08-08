@@ -11,6 +11,9 @@
     --text-FAFAFA: #FAFAFA;
     --text-000000: #000000;
     /* ===== Font Sizes and Weights ===== */
-    --font-size-10: 10px;
+    --font-size-32: 32px;
+    --font-size-50: 50px;
+
     --font-weight-400: 400;
+    --font-weight-600: 600;
 }
