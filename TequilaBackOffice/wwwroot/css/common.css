@@ -6,7 +6,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 1020; /* Ensures it stays on top of other content */
+    z-index: 1020; /* Ensures it stays above other content */
 }
 
 /* Top Menu Card */
@@ -62,9 +62,6 @@
 .footer {
     flex-shrink: 0;
     width: 100%;
-    position: sticky;
-    bottom: 0;
-    z-index: 1020;
     background-color: #D9D9D9;
     border-radius: 20px;
 }
